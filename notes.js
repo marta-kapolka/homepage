@@ -1,0 +1,1 @@
+alert('Fajowe notatki, nie? ;)');

@@ -1,0 +1,1 @@
+alert('Dżem bobrym! :)');
