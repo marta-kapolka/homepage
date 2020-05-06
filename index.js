@@ -1,4 +1,4 @@
-const troll = document.querySelector('.troll--js');
-console.log(troll);
+const troll = document.querySelector(".troll--js");
 
-troll.innerHTML = 'Jestem JSowym trollem!';
+troll.innerHTML =
+  "&emsp;Jestem JSowym trollem i tak tu sobie dopisuję głupoty!";

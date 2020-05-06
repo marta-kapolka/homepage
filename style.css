@@ -48,6 +48,7 @@ body {
   display: inline-block;
   font-size: 7rem;
   font-style: italic;
+  font-weight: 700;
 }
 
 /* NAVIGATION */
@@ -173,7 +174,7 @@ body {
 
 .main-content {
   left: 50%;
-  max-width: 100rem;
+  max-width: 112rem;
   position: relative;
   transform: translateX(-50%);
   width: 90vw;
@@ -194,24 +195,28 @@ body {
   position: absolute;
   text-align: center;
   top: 0;
-  width: 100vw;
+  width: calc(100vw - 3rem);
 }
 
 .up__arrow {
-  background-color: rgba(249, 160, 63, .6);
-  border-radius: 3.5rem;
-  bottom: 3rem;
+  border: 3px solid #f9a03f;
+  bottom: 2rem;
   color: #fefee7;
   font-family: "Raleway", "Century Gothic", sans-serif;
-  font-size: 8rem;
-  font-weight: 500;
-  height: 7rem;
-  padding: .1rem 1rem;
+  font-size: 4rem;
+  font-weight: 100;
+  height: 5rem;
+  padding: .4rem;
   position: fixed;
-  right: 3rem;
+  right: 2rem;
   text-decoration: none;
-  width: 7rem;
+  width: 5rem;
   z-index: 100;
+}
+
+.up__arrow:hover {
+  background-color: #f9a03f;
+  font-weight: 500;
 }
 
 /* SECTION */
@@ -244,15 +249,17 @@ body {
 
 /* FOOTER */
 
-footer {
+.footer {
   border-top: solid 1px #fefee7;
   clear: both;
   color: #fefee7;
   font-size: 1.6rem;
   font-weight: 100;
-  margin-top: 6rem;
+  margin: 12rem auto 0 auto;
+  max-width: 109rem;
   padding: 2rem 0;
   text-align: center;
+  width: 80vw;
 }
 
 /* NOTES PAGE */
@@ -300,7 +307,7 @@ footer {
   border: 3px solid #f9a03f;
   border-radius: 10rem;
   float: left;
-  margin: 10rem 5rem 5rem 0;
+  margin: 10rem 5rem 5rem 1.5rem;
   width: 20rem;
 }
 
