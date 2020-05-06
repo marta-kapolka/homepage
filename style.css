@@ -32,7 +32,7 @@ body {
 }
 
 .main-header__text {
-  margin-top: 18rem;
+  padding-top: 18rem;
   text-align: center;
 }
 
@@ -186,6 +186,32 @@ body {
   font-weight: 400;
   margin-top: 2rem;
   text-align: center;
+}
+
+.up__container {
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+}
+
+.up__arrow {
+  background-color: rgba(249, 160, 63, .6);
+  border-radius: 3.5rem;
+  bottom: 3rem;
+  color: #fefee7;
+  font-family: "Raleway", "Century Gothic", sans-serif;
+  font-size: 8rem;
+  font-weight: 500;
+  height: 7rem;
+  padding: .1rem 1rem;
+  position: fixed;
+  right: 3rem;
+  text-decoration: none;
+  width: 7rem;
+  z-index: 100;
 }
 
 /* SECTION */
