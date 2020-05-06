@@ -15,17 +15,16 @@ html {
 }
 
 body {
-  background-color: #0A0A15;
+  background-color: #0a0a15;
   box-sizing: border-box;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-weight: 300;
-
 }
 
 /* HEADER */
 
 .main-header {
-  background-color: #0A0A15;
+  background-color: #0a0a15;
   position: relative;
   top: 0;
   width: 100%;
@@ -38,14 +37,14 @@ body {
 }
 
 .main-header__text--white {
-  color: #FEFEE7;
+  color: #fefee7;
   display: inline-block;
   font-size: 6rem;
   font-weight: 100;
 }
 
 .main-header__text--orange {
-  color: #F9A03F;
+  color: #f9a03f;
   display: inline-block;
   font-size: 7rem;
   font-style: italic;
@@ -54,7 +53,7 @@ body {
 /* NAVIGATION */
 
 .navigation {
-  background-color: #0A0A15;
+  background-color: #0a0a15;
   padding: 2rem 2rem 1rem 2rem;
   position: fixed;
   top: 0;
@@ -62,10 +61,10 @@ body {
 }
 
 .navigation__item:link {
-  border: 2px solid #F9A03F;
-  color: #FEFEE7;
+  border: 2px solid #f9a03f;
+  color: #fefee7;
   display: inline-block;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.7rem;
   font-weight: 300;
   margin-right: 3rem;
@@ -73,20 +72,20 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 12rem;
+  width: 14rem;
   z-index: 70;
 }
 
 .navigation__item:hover {
-  background-color: #F9A03F;
+  background-color: #f9a03f;
   font-weight: 500;
 }
 
 .navigation__item:visited {
-  border: 2px solid #F9A03F;
-  color: #FEFEE7;
+  border: 2px solid #f9a03f;
+  color: #fefee7;
   display: inline-block;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.7rem;
   font-weight: 300;
   margin-right: 3rem;
@@ -94,16 +93,16 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 12rem;
+  width: 14rem;
   z-index: 70;
 }
 
 .navigation__item--current:link {
-  background-color: rgb(249, 160, 63, .3);
-  border: 2px solid #F9A03F;
-  color: #FEFEE7;
+  background-color: rgb(249, 160, 63, 0.3);
+  border: 2px solid #f9a03f;
+  color: #fefee7;
   display: inline-block;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.7rem;
   font-weight: 300;
   margin-right: 3rem;
@@ -111,21 +110,21 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 12rem;
+  width: 14rem;
   z-index: 70;
 }
 
 .navigation__item--current:hover {
-  background-color: #F9A03F;
+  background-color: #f9a03f;
   font-weight: 500;
 }
 
 .navigation__item--current:visited {
-  background-color: rgb(249, 160, 63, .3);
-  border: 2px solid #F9A03F;
-  color: #FEFEE7;
+  background-color: rgb(249, 160, 63, 0.3);
+  border: 2px solid #f9a03f;
+  color: #fefee7;
   display: inline-block;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.7rem;
   font-weight: 300;
   margin-right: 3rem;
@@ -133,12 +132,12 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 12rem;
+  width: 14rem;
   z-index: 70;
 }
 
 .week-navigation {
-  background-color: #0A0A15;
+  background-color: #0a0a15;
   padding-bottom: 2rem;
   position: fixed;
   top: 7.4rem;
@@ -146,27 +145,27 @@ body {
 }
 
 .week-navigation__item {
-  color: #FEFEE7;
+  color: #fefee7;
   display: inline-block;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
-  margin: .5rem 2rem;
+  margin: 0.5rem 1rem;
   text-decoration: none;
 }
 
 .week-navigation__item:hover {
-  color: #F9A03F;
+  color: #f9a03f;
 }
 
 .week-navigation__item--not-active {
   color: rgba(254, 254, 231, 0.5);
   cursor: default;
   display: inline-block;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
-  margin: .5rem 2rem;
+  margin: 0.5rem 1rem;
   text-decoration: none;
 }
 
@@ -181,10 +180,10 @@ body {
 }
 
 .page-title {
-  color: #FEFEE7;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  color: #fefee7;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 2.6rem;
-  font-weight: 400; 
+  font-weight: 400;
   margin-top: 2rem;
   text-align: center;
 }
@@ -197,8 +196,8 @@ body {
 }
 
 .section__title {
-  color: #FEFEE7;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  color: #fefee7;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 3rem;
   font-weight: 100;
   padding: 14rem 0 4rem 0;
@@ -209,8 +208,8 @@ body {
 
 .section__title::before,
 .section__title::after {
-  border-top: 1px solid #FEFEE7;
-  content: '';
+  border-top: 1px solid #fefee7;
+  content: "";
   display: inline-block;
   margin: 0 6rem;
   transform: translateY(-1rem);
@@ -220,9 +219,9 @@ body {
 /* FOOTER */
 
 footer {
-  border-top: solid 1px #FEFEE7;
+  border-top: solid 1px #fefee7;
   clear: both;
-  color: #FEFEE7;
+  color: #fefee7;
   font-size: 1.6rem;
   font-weight: 100;
   margin-top: 6rem;
@@ -230,17 +229,15 @@ footer {
   text-align: center;
 }
 
-
-
 /* NOTES PAGE */
 
 /* NOTE */
 
 .note {
-  background-color: #F0F2A6;
+  background-color: #f0f2a6;
   box-shadow: 0 5px 20px #000;
   display: inline-block;
-  font-family: 'Typewriter', 'Times New Roman', serif;
+  font-family: "Typewriter", "Times New Roman", serif;
   font-size: 1.8rem;
   margin: 1.5rem;
   min-height: 25rem;
@@ -266,16 +263,15 @@ footer {
 /* INDEX PAGE */
 
 .about-me__text {
-
-  color: #FEFEE7;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  color: #fefee7;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 2rem;
   font-weight: 100;
   margin-top: 10rem;
 }
 
 .about-me__photo {
-  border: 3px solid #F9A03F;
+  border: 3px solid #f9a03f;
   border-radius: 10rem;
   float: left;
   margin: 10rem 8rem 10rem 0;
@@ -289,8 +285,8 @@ footer {
 }
 
 .link__item {
-  color: #FEFEE7;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  color: #fefee7;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 2rem;
   font-weight: 100;
   text-decoration: none;
@@ -301,8 +297,8 @@ footer {
 }
 
 .link__item:visited {
-  color: #FEFEE7;
-  font-family: 'Raleway', 'Century Gothic', sans-serif;
+  color: #fefee7;
+  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 2rem;
   font-weight: 100;
   text-decoration: none;
