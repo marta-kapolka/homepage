@@ -19,6 +19,7 @@
     </div>
 
     <header class="main-header">
+      <div>
       <nav class="navigation">
         <a href="index.html" class="navigation__item">O mnie</a>
         <a href="notes.html" class="navigation__item--current">Notatki</a>
@@ -42,6 +43,7 @@
             <a href="#week-12" class="week-navigation__item--not-active">Tydzień XII</a>
             <a href="#week-13" class="week-navigation__item--not-active">Tydzień XIII</a> -->
       </nav>
+    </div>
 
       <p class="main-header__text">
         <span class="main-header__text--white"
@@ -66,6 +68,7 @@
                 <li class="note__item">
                   Naprawdę nie mogę się doczekać zadań domowych!
                 </li>
+                <li class="note__item"><a href="https://roadmap.sh/frontend" target="_blank">Ścieżka rozwoju</a></li>
               </ul>
             </article>
           </div>
@@ -123,12 +126,12 @@
                 </li>
                 <li class="note__item">
                   Specyficzność selektorów:
-                  <ol>
-                    <li>!important</li>
-                    <li>inline</li>
-                    <li>#id</li>
-                    <li>.class</li>
-                    <li>element</li>
+                  <ol class="note__items-list">
+                    <li class="note__item--tight"><strong>!important</strong></li>
+                    <li class="note__item--tight"><strong>inline</strong></li>
+                    <li class="note__item--tight"><strong>#id</strong></li>
+                    <li class="note__item--tight"><strong>.class</strong></li>
+                    <li class="note__item--tight"><strong>element</strong></li>
                   </ol>
                 </li>
               </ul>
@@ -136,6 +139,7 @@
 
             <article class="note">
               <h3 class="note__title">- Kanban -</h3>
+              <p class="note__subtitle">Jak planować pracę?</p>
               <ul class="note__items-list">
                 <li class="note__item">
                   Zwykle 3 kolumny:<br /><strong>TO DO, DOING, DONE</strong>
@@ -152,6 +156,7 @@
 
             <article class="note">
               <h3 class="note__title">- Internety -</h3>
+              <p class="note__subtitle">Z czego składa się adres strony?</p>
               <ul class="note__items-list">
                 <li class="note__item"><strong>http://</strong> - protokół</li>
                 <li class="note__item">
@@ -170,7 +175,7 @@
 
             <article class="note">
               <h3 class="note__title">- Internety -</h3>
-              <p>Co się dzieje w przeglądarce?</p>
+              <p class="note__subtitle">Co się dzieje w przeglądarce?</p>
               <ul class="note__items-list">
                 <li class="note__item">Wpisuję adres</li>
                 <li class="note__item">
@@ -187,7 +192,7 @@
 
             <article class="note">
               <h3 class="note__title">- Internety -</h3>
-              <p>Kody HTTP:</p>
+              <p class="note__subtitle">Kody HTTP</p>
               <ul class="note__items-list">
                 <li class="note__item"><strong>1xx</strong> - czekaj</li>
                 <li class="note__item"><strong>2xx</strong> - wszystko OK</li>
@@ -202,7 +207,7 @@
 
             <article class="note">
               <h3 class="note__title">- Terminal -</h3>
-              <p>Komendy w Windowsie:</p>
+              <p class="note__subtitle">Komendy w Windowsie</p>
               <ul class="note__items-list">
                 <li class="note__item">
                   <strong>cd C:\</strong> - przejście do C:
@@ -238,13 +243,14 @@
           <div class="section__flex-container">
             <article class="note">
               <h3 class="note__title">- GIT -</h3>
-              <p>Komendy w konsoli:</p>
+              <p class="note__subtitle">Komendy w konsoli</p>
               <ul class="note__items-list">
                 <li class="note__item"><strong>got init</strong> - utworzenie repozytorium</li>
                 <li class="note__item"><strong>git status</strong> - sprawdzenie stanu repozytorium</li>
                 <li class="note__item"><strong>git add .</strong> - dodanie plików do planowanego commita</li>
                 <li class="note__item"><strong>git commit -m "<i>opis zmian</i>"</strong> - commit</li>
                 <li class="note__item"><strong>gitk</strong> - cała historia repozytorium</li>
+                <li class="note__item"><strong>git push</strong> - wypchnięcie zmian do zewnętrznego repozytorium</li>
               </ul>
             </article>
           </div>
