@@ -141,11 +141,11 @@ body {
   z-index: 70;
 }
 
-.week-navigation {
+.secondary-navigation {
   margin-top: 1.5rem;
 }
 
-.week-navigation__item {
+.secondary-navigation__item {
   color: #fefee7;
   display: inline-block;
   font-family: "Raleway", "Century Gothic", sans-serif;
@@ -155,11 +155,11 @@ body {
   text-decoration: none;
 }
 
-.week-navigation__item:hover {
+.secondary-navigation__item:hover {
   color: #f9a03f;
 }
 
-.week-navigation__item--not-active {
+.secondary-navigation__item--not-active {
   color: rgba(254, 254, 231, 0.5);
   cursor: default;
   display: inline-block;
