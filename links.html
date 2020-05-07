@@ -19,23 +19,25 @@
     </div>
 
     <header class="main-header">
-      <nav class="navigation">
-        <a href="index.html" class="navigation__item">O mnie</a>
-        <a href="notes.html" class="navigation__item">Notatki</a>
-        <a href="links.html" class="navigation__item--current">Sznurki</a>
-      </nav>
+      <div class="main-header__navigation">
+        <nav class="main-navigation">
+          <a href="index.html" class="main-navigation__item">O mnie</a>
+          <a href="notes.html" class="main-navigation__item">Notatki</a>
+          <a href="links.html" class="main-navigation__item--current"
+            >Sznurki</a
+          >
+        </nav>
 
-      <nav class="week-navigation">
-        <a href="#validate" class="week-navigation__item">Bobrze bobrze..?</a>
-        <a href="#style" class="week-navigation__item">Stylowo</a>
-        <a href="#color" class="week-navigation__item">Kororowo</a>
-        <a href="#UX" class="week-navigation__item">Dizajn i inne bajery</a>
-        <a href="#read" class="week-navigation__item">Do czytania</a>
-        <a href="#watch" class="week-navigation__item"
-          >Do oglądania</a
-        >
-        <a href="#check" class="week-navigation__item">Do zaglądania</a>
-      </nav>
+        <nav class="week-navigation">
+          <a href="#validate" class="week-navigation__item">Bobrze bobrze..?</a>
+          <a href="#style" class="week-navigation__item">Stylowo</a>
+          <a href="#color" class="week-navigation__item">Kororowo</a>
+          <a href="#UX" class="week-navigation__item">Dizajn i inne bajery</a>
+          <a href="#read" class="week-navigation__item">Do czytania</a>
+          <a href="#watch" class="week-navigation__item">Do oglądania</a>
+          <a href="#check" class="week-navigation__item">Do zaglądania</a>
+        </nav>
+      </div>
 
       <p class="main-header__text">
         <span class="main-header__text--white"
@@ -66,6 +68,11 @@
                 target="_blank"
                 class="link__item"
                 >Semantyczny HTML - blog</a
+              >
+            </li>
+            <li>
+              <a href="https://caniuse.com/" target="_blank" class="link__item"
+                >Can I use?</a
               >
             </li>
           </ul>
@@ -196,8 +203,10 @@
     </main>
 
     <footer>
-      <p class="footer">Strona domowa Marty Kapołki. Wszystkie treści są jakby moje, przy czym
-      powstały w ramach szkolenia WTF: Co ten frontend.</p>
+      <p class="footer">
+        Strona domowa Marty Kapołki. Wszystkie treści są jakby moje, przy czym
+        powstały w ramach szkolenia WTF: Co ten frontend.
+      </p>
     </footer>
   </body>
 </html>

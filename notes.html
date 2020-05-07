@@ -19,22 +19,22 @@
     </div>
 
     <header class="main-header">
-      <div>
-      <nav class="navigation">
-        <a href="index.html" class="navigation__item">O mnie</a>
-        <a href="notes.html" class="navigation__item--current">Notatki</a>
-        <a href="links.html" class="navigation__item">Sznurki</a>
-      </nav>
+      <div class="main-header__navigation">
+        <nav class="main-navigation">
+          <a href="index.html" class="main-navigation__item">O mnie</a>
+          <a href="notes.html" class="main-navigation__item--current">Notatki</a>
+          <a href="links.html" class="main-navigation__item">Sznurki</a>
+        </nav>
 
-      <nav class="week-navigation">
-        <a href="#week-1" class="week-navigation__item">Tydzień I</a>
-        <a href="#week-2" class="week-navigation__item">Tydzień II</a>
-        <a href="#week-3" class="week-navigation__item">Tydzień III</a>
-        <a href="#week-4" class="week-navigation__item">Tydzień IV</a>
-        <a href="#week-5" class="week-navigation__item--not-active"
-          >Tydzień V</a
-        >
-        <!-- <a href="#week-6" class="week-navigation__item--not-active">Tydzień VI</a>
+        <nav class="week-navigation">
+          <a href="#week-1" class="week-navigation__item">Tydzień I</a>
+          <a href="#week-2" class="week-navigation__item">Tydzień II</a>
+          <a href="#week-3" class="week-navigation__item">Tydzień III</a>
+          <a href="#week-4" class="week-navigation__item">Tydzień IV</a>
+          <a href="#week-5" class="week-navigation__item--not-active"
+            >Tydzień V</a
+          >
+          <!-- <a href="#week-6" class="week-navigation__item--not-active">Tydzień VI</a>
             <a href="#week-7" class="week-navigation__item--not-active">Tydzień VII</a>
             <a href="#week-8" class="week-navigation__item--not-active">Tydzień VIII</a>
             <a href="#week-9" class="week-navigation__item--not-active">Tydzień IX</a>
@@ -42,8 +42,8 @@
             <a href="#week-11" class="week-navigation__item--not-active">Tydzień XI</a>
             <a href="#week-12" class="week-navigation__item--not-active">Tydzień XII</a>
             <a href="#week-13" class="week-navigation__item--not-active">Tydzień XIII</a> -->
-      </nav>
-    </div>
+        </nav>
+      </div>
 
       <p class="main-header__text">
         <span class="main-header__text--white"
@@ -68,7 +68,11 @@
                 <li class="note__item">
                   Naprawdę nie mogę się doczekać zadań domowych!
                 </li>
-                <li class="note__item"><a href="https://roadmap.sh/frontend" target="_blank">Ścieżka rozwoju</a></li>
+                <li class="note__item">
+                  <a href="https://roadmap.sh/frontend" target="_blank"
+                    >Ścieżka rozwoju</a
+                  >
+                </li>
               </ul>
             </article>
           </div>
@@ -127,7 +131,9 @@
                 <li class="note__item">
                   Specyficzność selektorów:
                   <ol class="note__items-list">
-                    <li class="note__item--tight"><strong>!important</strong></li>
+                    <li class="note__item--tight">
+                      <strong>!important</strong>
+                    </li>
                     <li class="note__item--tight"><strong>inline</strong></li>
                     <li class="note__item--tight"><strong>#id</strong></li>
                     <li class="note__item--tight"><strong>.class</strong></li>
@@ -245,12 +251,50 @@
               <h3 class="note__title">- GIT -</h3>
               <p class="note__subtitle">Komendy w konsoli</p>
               <ul class="note__items-list">
-                <li class="note__item"><strong>got init</strong> - utworzenie repozytorium</li>
-                <li class="note__item"><strong>git status</strong> - sprawdzenie stanu repozytorium</li>
-                <li class="note__item"><strong>git add .</strong> - dodanie plików do planowanego commita</li>
-                <li class="note__item"><strong>git commit -m "<i>opis zmian</i>"</strong> - commit</li>
-                <li class="note__item"><strong>gitk</strong> - cała historia repozytorium</li>
-                <li class="note__item"><strong>git push</strong> - wypchnięcie zmian do zewnętrznego repozytorium</li>
+                <li class="note__item">
+                  <strong>got init</strong> - utworzenie repozytorium
+                </li>
+                <li class="note__item">
+                  <strong>git status</strong> - sprawdzenie stanu repozytorium
+                </li>
+                <li class="note__item">
+                  <strong>git add .</strong> - dodanie plików do planowanego
+                  commita
+                </li>
+                <li class="note__item">
+                  <strong>git commit -m "<i>opis zmian</i>"</strong> - commit
+                </li>
+                <li class="note__item">
+                  <strong>gitk</strong> - cała historia repozytorium
+                </li>
+                <li class="note__item">
+                  <strong>git push</strong> - wypchnięcie zmian do zewnętrznego
+                  repozytorium
+                </li>
+              </ul>
+            </article>
+
+            <article class="note">
+              <h3 class="note__title">- JS -</h3>
+              <p class="note__subtitle">Typy danych</p>
+              <ul class="note__items-list">
+                <li class="note__item"><strong>string</strong> - tekst</li>
+                <li class="note__item"><strong>number</strong> - liczba</li>
+                <li class="note__item">
+                  <strong>bigint</strong> - duża liczba (> 2<sup>53</sup>)
+                </li>
+                <li class="note__item">
+                  <strong>boolean</strong> - true / false
+                </li>
+                <li class="note__item">
+                  <strong>null</strong> - celowo niezdefiniowana wartość
+                </li>
+                <li class="note__item">
+                  <strong>undefined</strong> - brak definicji
+                </li>
+                <li class="note__item">
+                  <strong>* symbol</strong> - tworzy "unikalne opakowanie"
+                </li>
               </ul>
             </article>
           </div>
@@ -259,8 +303,10 @@
     </main>
 
     <footer>
-      <p class="footer">Strona domowa Marty Kapołki. Wszystkie treści są jakby moje, przy czym
-      powstały w ramach szkolenia WTF: Co ten frontend.</p>
+      <p class="footer">
+        Strona domowa Marty Kapołki. Wszystkie treści są jakby moje, przy czym
+        powstały w ramach szkolenia WTF: Co ten frontend.
+      </p>
     </footer>
 
     <!-- <script src="notes.js"></script> -->
