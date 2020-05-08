@@ -66,7 +66,7 @@ body {
 }
 
 .main-navigation__item:link {
-  border: 2px dashed #f9a03f;
+  border: 3px dashed #f9a03f;
   color: #fefee7;
   display: inline-block;
   font-family: "Raleway", "Century Gothic", sans-serif;
@@ -87,7 +87,7 @@ body {
 }
 
 .main-navigation__item:visited {
-  border: 2px dashed #f9a03f;
+  border: 3px dashed #f9a03f;
   color: #fefee7;
   display: inline-block;
   font-family: "Raleway", "Century Gothic", sans-serif;
@@ -141,31 +141,33 @@ body {
   z-index: 70;
 }
 
-.secondary-navigation {
+.internal-navigation {
   margin-top: 1.5rem;
 }
 
-.secondary-navigation__item {
+.internal-navigation__item {
   color: #fefee7;
   display: inline-block;
   font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
+  margin-bottom: .5rem;
   margin-right: 1.5rem;
   text-decoration: none;
 }
 
-.secondary-navigation__item:hover {
+.internal-navigation__item:hover {
   color: #f9a03f;
 }
 
-.secondary-navigation__item--not-active {
+.internal-navigation__item--not-active {
   color: rgba(254, 254, 231, 0.5);
   cursor: default;
   display: inline-block;
   font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
+  margin-bottom: .5rem;
   margin-right: 1.5rem;
   text-decoration: none;
 }
@@ -199,7 +201,7 @@ body {
 }
 
 .up__arrow {
-  border: 2px dashed #f9a03f;
+  border: 3px dashed #f9a03f;
   bottom: 2rem;
   color: #fefee7;
   font-family: "Raleway", "Century Gothic", sans-serif;
