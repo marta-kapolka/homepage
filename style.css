@@ -18,7 +18,6 @@ body {
   background-color: #0a0a15;
   box-sizing: border-box;
   font-family: "Raleway", "Century Gothic", sans-serif;
-  font-weight: 300;
 }
 
 /* HEADER */
@@ -65,7 +64,6 @@ body {
   border: 3px dashed #f9a03f;
   color: #fefee7;
   display: inline-block;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.7rem;
   font-weight: 300;
   margin-right: 3rem;
@@ -86,7 +84,6 @@ body {
   border: 3px dashed #f9a03f;
   color: #fefee7;
   display: inline-block;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.7rem;
   font-weight: 300;
   margin-right: 3rem;
@@ -103,7 +100,6 @@ body {
   border: 3px solid #f9a03f;
   color: #fefee7;
   display: inline-block;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
   margin-right: 3rem;
@@ -125,7 +121,6 @@ body {
   border: 3px solid #f9a03f;
   color: #fefee7;
   display: inline-block;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
   margin-right: 3rem;
@@ -144,7 +139,6 @@ body {
 .internal-navigation__item {
   color: #fefee7;
   display: inline-block;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
@@ -160,7 +154,6 @@ body {
   color: rgba(254, 254, 231, 0.5);
   cursor: default;
   display: inline-block;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
@@ -180,7 +173,6 @@ body {
 
 .main-content__title {
   color: #fefee7;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 2.6rem;
   font-weight: 400;
   margin-top: 2rem;
@@ -200,7 +192,6 @@ body {
   border: 3px dashed #f9a03f;
   bottom: 2rem;
   color: #fefee7;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 4rem;
   font-weight: 100;
   height: 5rem;
@@ -235,7 +226,7 @@ body {
   font-weight: 100;
 }
 
-.footer__link {
+.footer__text--link {
   color: #fefee7;
   font-weight: 300;
   text-decoration: none;
@@ -256,7 +247,6 @@ body {
 
 .week__title {
   color: #fefee7;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 3rem;
   font-weight: 100;
   padding: 14rem 0 4rem 0;
@@ -320,7 +310,6 @@ body {
 
 .about-me {
   color: #fefee7;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   margin: 10rem auto;
   width: 80%;
 }
@@ -348,7 +337,6 @@ body {
 
 .skills {
   color: #fefee7;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   margin: 10rem auto;
   width: 80%;
 }
@@ -382,10 +370,6 @@ body {
   font-weight: 300;
 }
 
-/* .skills-list__details[open] {
-  padding: 1rem;
-} */
-
 /* LINKS PAGE */
 
 /* CATEGORY */
@@ -397,7 +381,6 @@ body {
 
 .category__title {
   color: #fefee7;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 3rem;
   font-weight: 100;
   padding: 14rem 0 4rem 0;
@@ -423,7 +406,6 @@ body {
 
 .link__item {
   color: #fefee7;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 2rem;
   font-weight: 100;
   text-decoration: none;
@@ -435,7 +417,6 @@ body {
 
 .link__item:visited {
   color: #fefee7;
-  font-family: "Raleway", "Century Gothic", sans-serif;
   font-size: 2rem;
   font-weight: 100;
   text-decoration: none;
