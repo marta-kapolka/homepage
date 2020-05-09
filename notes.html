@@ -22,7 +22,9 @@
       <div class="main-header__navigation">
         <nav class="main-navigation">
           <a href="index.html" class="main-navigation__item">O mnie</a>
-          <a href="notes.html" class="main-navigation__item main-navigation__item--current"
+          <a
+            href="notes.html"
+            class="main-navigation__item main-navigation__item--current"
             >Notatki</a
           >
           <a href="links.html" class="main-navigation__item">Sznurki</a>
@@ -72,7 +74,10 @@
                 Naprawdę nie mogę się doczekać zadań domowych!
               </li>
               <li class="note__item">
-                <a href="https://roadmap.sh/frontend" target="_blank" class="note__link"
+                <a
+                  href="https://roadmap.sh/frontend"
+                  target="_blank"
+                  class="note__link"
                   >Ścieżka rozwoju</a
                 >
               </li>
@@ -136,10 +141,18 @@
                   <li class="note__item note__item--tight">
                     <strong>!important</strong>
                   </li>
-                  <li class="note__item note__item--tight"><strong>inline</strong></li>
-                  <li class="note__item note__item--tight"><strong>#id</strong></li>
-                  <li class="note__item note__item--tight"><strong>.class</strong></li>
-                  <li class="note__item note__item--tight"><strong>element</strong></li>
+                  <li class="note__item note__item--tight">
+                    <strong>inline</strong>
+                  </li>
+                  <li class="note__item note__item--tight">
+                    <strong>#id</strong>
+                  </li>
+                  <li class="note__item note__item--tight">
+                    <strong>.class</strong>
+                  </li>
+                  <li class="note__item note__item--tight">
+                    <strong>element</strong>
+                  </li>
                 </ol>
               </li>
             </ul>
@@ -252,7 +265,10 @@
           <article class="note">
             <h3 class="note__title">- CSS -</h3>
             <ul class="note__items-list">
-              <li class="note__item"><strong>overflow: visible (hidden, scroll, auto)</strong> - określa zachowanie elementu jeśli treść wychodzi poza opakowanie</li>
+              <li class="note__item">
+                <strong>overflow: visible (hidden, scroll, auto)</strong> -
+                określa zachowanie elementu jeśli treść wychodzi poza opakowanie
+              </li>
             </ul>
           </article>
 
@@ -260,10 +276,21 @@
             <h3 class="note__title">- CSS -</h3>
             <p class="note__subtitle">box model</p>
             <ul class="note__items-list">
-              <li class="note__item"><strong>padding</strong> - należy do elementu</li>
-              <li class="note__item"><strong>margin</strong> - znajduje się poza elementem</li>
-              <li class="note__item"><strong>margin: auto</strong> - element musi mieć zdefiniowaną szerokość!</li>
-              <li class="note__item"><strong>box-sizing: border-box</strong> - wymiary są definiowane dla całego elementu - łącznie z padding i border, content jest wynikowy</li>
+              <li class="note__item">
+                <strong>padding</strong> - należy do elementu
+              </li>
+              <li class="note__item">
+                <strong>margin</strong> - znajduje się poza elementem
+              </li>
+              <li class="note__item">
+                <strong>margin: auto</strong> - element musi mieć zdefiniowaną
+                szerokość!
+              </li>
+              <li class="note__item">
+                <strong>box-sizing: border-box</strong> - wymiary są definiowane
+                dla całego elementu - łącznie z padding i border, content jest
+                wynikowy
+              </li>
             </ul>
           </article>
 
@@ -273,9 +300,19 @@
             <ul class="note__items-list">
               <li class="note__item"><strong>static</strong> - domyślna</li>
               <li class="note__item"><strong>relative</strong></li>
-              <li class="note__item"><strong>absolute</strong> - pozycjonowanie względem rodzica (rodzic nie może mieć position static)</li>
-              <li class="note__item"><strong>fixed</strong> - pozycjonowanie względem okna przeglądarki</li>
-              <li class="note__item"><strong>sticky</strong> - jak fixed, ale tylko w obrębie rodzica, rodzic nie może mieć overflow, element rezerwuje miejsce na stronie</li>
+              <li class="note__item">
+                <strong>absolute</strong> - pozycjonowanie względem rodzica
+                (rodzic nie może mieć position static)
+              </li>
+              <li class="note__item">
+                <strong>fixed</strong> - pozycjonowanie względem okna
+                przeglądarki
+              </li>
+              <li class="note__item">
+                <strong>sticky</strong> - jak fixed, ale tylko w obrębie
+                rodzica, rodzic nie może mieć overflow, element rezerwuje
+                miejsce na stronie
+              </li>
             </ul>
           </article>
 
@@ -283,9 +320,18 @@
             <h3 class="note__title">- CSS -</h3>
             <p class="note__subtitle">float</p>
             <ul class="note__items-list">
-              <li class="note__item"><strong>nie służy do tworzenia layoutów</strong></li>
-              <li class="note__item">nadawany elementowi, który ma być opływany przez inny element (obrazek opływany przez tekst)</li>
-              <li class="note__item"><strong>clear: both (left, right)</strong> - własność nadawana pierwszemu elementowi, który ma nie opływać elementu, powoduje rozciągnięcie opakowania opływanego elementu, bo tak!</li>
+              <li class="note__item">
+                <strong>nie służy do tworzenia layoutów</strong>
+              </li>
+              <li class="note__item">
+                nadawany elementowi, który ma być opływany przez inny element
+                (obrazek opływany przez tekst)
+              </li>
+              <li class="note__item">
+                <strong>clear: both (left, right)</strong> - własność nadawana
+                pierwszemu elementowi, który ma nie opływać elementu, powoduje
+                rozciągnięcie opakowania opływanego elementu, bo tak!
+              </li>
             </ul>
           </article>
           <article class="note">
@@ -344,7 +390,9 @@
             <p class="note__subtitle">Document Object Model</p>
             <ul class="note__items-list">
               <li class="note__item">
-                Strona "złożona" przez przeglądarkę na podstawie "instrukcji" (HTML, modyfikacje wykonane przez JS, elementy typu zdjęcia, fonty itd.)
+                Strona "złożona" przez przeglądarkę na podstawie "instrukcji"
+                (HTML, modyfikacje wykonane przez JS, elementy typu zdjęcia,
+                fonty itd.)
               </li>
               <li class="note__item">
                 JS komunikuje się ze stroną poprzez DOM
@@ -398,28 +446,35 @@
             </p>
             <ul class="note__items-list">
               <li class="note__item">konwencja nazewnictwa klas w CSS</li>
-              <li class="note__item">jeśli element posiada modyfikator to dodajemy dwie klasy: <strong>class="hand__finger hand__finger--thumb"</strong></li>
+              <li class="note__item">
+                jeśli element posiada modyfikator to dodajemy dwie klasy:
+                <strong>class="hand__finger hand__finger--thumb"</strong>
+              </li>
             </ul>
           </article>
 
           <article class="note">
             <h3 class="note__title">- HTML -</h3>
             <ul class="note__items-list">
-              <li class="note__item"><strong>div</strong> - tylko jako opakowanie do stylowania, gdy nie istnieje odpowiedni znacznik semantyczny</li>
+              <li class="note__item">
+                <strong>div</strong> - tylko jako opakowanie do stylowania, gdy
+                nie istnieje odpowiedni znacznik semantyczny
+              </li>
             </ul>
           </article>
-
-          
 
           <article class="note">
             <h3 class="note__title">- Jednostki -</h3>
             <ul class="note__items-list">
-              <li class="note__item"><strong>%</strong> - liczone względem rodzica</li>
-              <li class="note__item"><strong>vw, vh</strong> - jak procenty, ale liczone względem okna przeglądarki</li>
+              <li class="note__item">
+                <strong>%</strong> - liczone względem rodzica
+              </li>
+              <li class="note__item">
+                <strong>vw, vh</strong> - jak procenty, ale liczone względem
+                okna przeglądarki
+              </li>
             </ul>
           </article>
-
-          
         </div>
       </section>
     </main>
