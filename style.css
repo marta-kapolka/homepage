@@ -274,11 +274,11 @@ body {
   margin-top: 0;
 }
 
-.note__link:hover {
+.note__item--link:hover {
   font-weight: 700;
 }
 
-.note__link:visited {
+.note__item--link:visited {
   color: #000;
 }
 
