@@ -250,6 +250,45 @@
         <h2 class="week__title">Tydzień IV</h2>
         <div class="week__flex-container">
           <article class="note">
+            <h3 class="note__title">- CSS -</h3>
+            <ul class="note__items-list">
+              <li class="note__item"><strong>overflow: visible (hidden, scroll, auto)</strong> - określa zachowanie elementu jeśli treść wychodzi poza opakowanie</li>
+            </ul>
+          </article>
+
+          <article class="note">
+            <h3 class="note__title">- CSS -</h3>
+            <p class="note__subtitle">box model</p>
+            <ul class="note__items-list">
+              <li class="note__item"><strong>padding</strong> - należy do elementu</li>
+              <li class="note__item"><strong>margin</strong> - znajduje się poza elementem</li>
+              <li class="note__item"><strong>margin: auto</strong> - element musi mieć zdefiniowaną szerokość!</li>
+              <li class="note__item"><strong>box-sizing: border-box</strong> - wymiary są definiowane dla całego elementu - łącznie z padding i border, content jest wynikowy</li>
+            </ul>
+          </article>
+
+          <article class="note">
+            <h3 class="note__title">- CSS -</h3>
+            <p class="note__subtitle">position</p>
+            <ul class="note__items-list">
+              <li class="note__item"><strong>static</strong> - domyślna</li>
+              <li class="note__item"><strong>relative</strong></li>
+              <li class="note__item"><strong>absolute</strong> - pozycjonowanie względem rodzica (rodzic nie może mieć position static)</li>
+              <li class="note__item"><strong>fixed</strong> - pozycjonowanie względem okna przeglądarki</li>
+              <li class="note__item"><strong>sticky</strong> - jak fixed, ale tylko w obrębie rodzica, rodzic nie może mieć overflow, element rezerwuje miejsce na stronie</li>
+            </ul>
+          </article>
+
+          <article class="note">
+            <h3 class="note__title">- CSS -</h3>
+            <p class="note__subtitle">float</p>
+            <ul class="note__items-list">
+              <li class="note__item"><strong>nie służy do tworzenia layoutów</strong></li>
+              <li class="note__item">nadawany elementowi, który ma być opływany przez inny element (obrazek opływany przez tekst)</li>
+              <li class="note__item"><strong>clear: both (left, right)</strong> - własność nadawana pierwszemu elementowi, który ma nie opływać elementu, powoduje rozciągnięcie opakowania opływanego elementu, bo tak!</li>
+            </ul>
+          </article>
+          <article class="note">
             <h3 class="note__title">- GIT -</h3>
             <p class="note__subtitle">Komendy w konsoli</p>
             <ul class="note__items-list">
@@ -304,13 +343,50 @@
             <h3 class="note__title">- DOM -</h3>
             <p class="note__subtitle">Document Object Model</p>
             <ul class="note__items-list">
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
+              <li class="note__item">
+                Strona "złożona" przez przeglądarkę na podstawie "instrukcji" (html, modyfikacje wykonane przez js, elementy typu zdjęcia, fonty itd.)
+              </li>
+              <li class="note__item">
+                JS komunikuje się ze stroną poprzez DOM
+              </li>
+            </ul>
+          </article>
+
+          <article class="note">
+            <h3 class="note__title">- DOM / JS -</h3>
+            <p class="note__subtitle">querySelector</p>
+            <ul class="note__items-list">
+              <li class="note__item">
+                <strong>document.querySelector<br />('.selector')</strong>
+              </li>
+              <li class="note__item">
+                querySelector zwraca cały element wraz z dziećmi (node - węzeł)
+              </li>
+              <li class="note__item">
+                <strong>'.selector'</strong> - tak samo jak w CSS
+              </li>
+              <li class="note__item">
+                klasy do JS nazywamy <strong>block__element--js</strong>
+              </li>
+              <li class="note__item">* nie korzystamy już z getElementBy...</li>
+            </ul>
+          </article>
+
+          <article class="note">
+            <h3 class="note__title">- DOM / JS -</h3>
+            <p class="note__subtitle">zmienna.innerHTML</p>
+            <ul class="note__items-list">
+              <li class="note__item">
+                <strong>zmienna.innerHTML</strong> - zwraca zawartość elementu
+                pod zmienną
+              </li>
+              <li class="note__item">
+                <strong>zmienna.innerHTML = 'treść'</strong> - nadpisuje treść
+                elementu pod zmienną
+              </li>
+              <li class="note__item">
+                za pomocą innerHTML da się wklejać elementy HTML
+              </li>
             </ul>
           </article>
 
@@ -321,15 +397,29 @@
               <strong>M</strong>odifier
             </p>
             <ul class="note__items-list">
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
-              <li class="note__item"></li>
+              <li class="note__item">konwencja nazewnictwa klas w CSS</li>
+              <li class="note__item">jeśli element posiada modyfikator to dodajemy dwie klasy: <strong>class="hand__finger hand__finger--thumb"</strong></li>
             </ul>
           </article>
+
+          <article class="note">
+            <h3 class="note__title">- HTML -</h3>
+            <ul class="note__items-list">
+              <li class="note__item"><strong></strong>div</strong> - tylko jako opakowanie do stylowania, gdy nie istnieje odpowiedni znacznik semantyczny</li>
+            </ul>
+          </article>
+
+          
+
+          <article class="note">
+            <h3 class="note__title">- Jednostki -</h3>
+            <ul class="note__items-list">
+              <li class="note__item"><strong>%</strong> - liczone względem rodzica</li>
+              <li class="note__item"><strong>vw, vh</strong> - jak procenty, ale liczone względem okna przeglądarki</li>
+            </ul>
+          </article>
+
+          
         </div>
       </section>
     </main>
@@ -337,7 +427,13 @@
     <footer class="footer">
       <p class="footer__text">
         Strona domowa Marty Kapołki. Wszystkie treści są jakby moje, przy czym
-        powstały w ramach szkolenia <a href="http://cotenfrontend.pl" target="_blank" class="footer__text--link">WTF: Co ten frontend</a>.
+        powstały w ramach szkolenia
+        <a
+          href="http://cotenfrontend.pl"
+          target="_blank"
+          class="footer__text--link"
+          >WTF: Co ten frontend</a
+        >.
       </p>
     </footer>
 
