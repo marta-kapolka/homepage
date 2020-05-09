@@ -61,7 +61,7 @@ body {
   width: 100vw;
 }
 
-.main-navigation__item:link {
+.main-navigation__item {
   border: 3px dashed #f9a03f;
   color: #fefee7;
   display: inline-block;
@@ -98,7 +98,7 @@ body {
   z-index: 70;
 }
 
-.main-navigation__item--current:link {
+.main-navigation__item--current {
   /* background-color: rgb(249, 160, 63, 0.3); */
   border: 3px solid #f9a03f;
   color: #fefee7;
@@ -222,14 +222,27 @@ body {
 .footer {
   border-top: solid 1px #fefee7;
   clear: both;
-  color: #fefee7;
-  font-size: 1.6rem;
-  font-weight: 100;
   margin: 12rem auto 0 auto;
   max-width: 109rem;
   padding: 2rem 0;
   text-align: center;
   width: 80vw;
+}
+
+.footer__text {
+  color: #fefee7;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+.footer__link {
+  color: #fefee7;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: #f9a03f;
 }
 
 /* NOTES PAGE */
