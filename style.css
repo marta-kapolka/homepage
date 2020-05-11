@@ -43,7 +43,7 @@ body {
 }
 
 .main-header__text--orange {
-  color: #f9a03f;
+  color: #ff901a;
   font-size: 7rem;
   font-style: italic;
   font-weight: 700;
@@ -60,7 +60,7 @@ body {
 }
 
 .main-navigation__item {
-  border: 3px dashed #f9a03f;
+  border: 3px dashed #ff901a;
   color: #fefee7;
   display: inline-block;
   font-size: 1.7rem;
@@ -75,12 +75,12 @@ body {
 }
 
 .main-navigation__item:hover {
-  background-color: #f9a03f;
+  background-color: #ff901a;
   font-weight: 700;
 }
 
 .main-navigation__item:visited {
-  border: 3px dashed #f9a03f;
+  border: 3px dashed #ff901a;
   color: #fefee7;
   display: inline-block;
   font-size: 1.7rem;
@@ -95,7 +95,7 @@ body {
 }
 
 .main-navigation__item--current {
-  border: 3px solid #f9a03f;
+  border: 3px solid #ff901a;
   font-weight: 700;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .internal-navigation__item:hover {
-  color: #f9a03f;
+  color: #ff901a;
 }
 
 .internal-navigation__item--not-active {
@@ -156,7 +156,7 @@ body {
 }
 
 .up__arrow {
-  border: 3px dashed #f9a03f;
+  border: 3px dashed #ff901a;
   bottom: 2rem;
   color: #fefee7;
   font-size: 4rem;
@@ -171,7 +171,7 @@ body {
 }
 
 .up__arrow:hover {
-  background-color: #f9a03f;
+  background-color: #ff901a;
   font-weight: 500;
 }
 
@@ -199,7 +199,7 @@ body {
 }
 
 .footer__text--link:hover {
-  color: #f9a03f;
+  color: #ff901a;
 }
 
 /* NOTES PAGE */
@@ -304,7 +304,7 @@ body {
 }
 
 .about-me__photo {
-  border: 3px solid #f9a03f;
+  border: 4px solid #ff901a;
   border-radius: 10rem;
   float: right;
   margin: 0 0 4rem 6rem;
@@ -348,7 +348,7 @@ body {
 }
 
 .skills-list__summary:hover {
-  color: #f9a03f;
+  color: #ff901a;
 }
 
 /* LINKS PAGE */
@@ -424,7 +424,7 @@ body {
 }
 
 .link__button:hover {
-  background-color: #f9a03f;
+  background-color: #ff901a;
 }
 
 .link__button:active {
