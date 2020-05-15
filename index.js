@@ -11,14 +11,14 @@ let visitor = {};
 
 visitor.name = prompt("No cześć! Jeśli masz ochotę to podaj imię:");
 
-if (visitor.name == "") { // NO NAME GIVEN
+if (visitor.name == "" || visitor.name == null) { // NO NAME GIVEN
   visitor.name = "Nieznajoma czy też Nieznajomy";
 }
 
 visitor.age = prompt("Możesz też podać swój wiek! :)");
 
 if (isNaN(visitor.age)) {
-  alert("To nie liczba! Nie liczy się!");
+  alert("Nie oszukuj! Wiek podaje się liczbą! ;)");
   visitor.age = "";
 }
 
@@ -66,7 +66,7 @@ function greetVisitor(visitor) { // GREETING WITH AGE
   }
 }
 
-if (visitor.name != "" && visitor.age != "") {
+if (visitor.name != "" && visitor.age != "" && visitor.age != null ) {
   greetVisitor(visitor);
 } else if (visitor.name != "") {
   greetVisitorName(visitor);
