@@ -3,10 +3,15 @@ const troll = document.querySelector(".troll--js");
 troll.innerHTML =
   "&emsp;Jestem JSowym trollem i tak tu sobie dopisuję głupoty!";
 
+// GREETING VISITOR
+
+const greeting = document.querySelector(".about-me__text--js");
+
 let visitor = {};
 
 visitor.name = prompt("No cześć! Jeśli masz ochotę to podaj imię:");
-if (visitor.name == "") {
+
+if (visitor.name == "") { // NO NAME GIVEN
   visitor.name = "Nieznajoma czy też Nieznajomy";
 }
 
@@ -16,16 +21,15 @@ if (isNaN(visitor.age)) {
   alert("To nie liczba! Nie liczy się!");
   visitor.age = "";
 }
-const greeting = document.querySelector(".about-me__text--js");
 
-function greetVisitorName(visitor) {
+function greetVisitorName(visitor) { // GREETING WITH NO AGE
   greeting.innerHTML = `Witaj ${visitor.name}!`;
 }
 
-function greetVisitor(visitor) {
-  if (visitor.age == 32) {
+function greetVisitor(visitor) { // GREETING WITH AGE
+  if (visitor.age == 32) { // SAME AGE
     greeting.innerHTML = `Witaj ${visitor.name}! Masz tyle lat ile ja!`;
-  } else {
+  } else { // AGE DIFFERENCE
     const ageDifference = Math.abs(32 - visitor.age);
 
     let older;
@@ -35,9 +39,9 @@ function greetVisitor(visitor) {
       older = "mniej";
     }
 
-    if (Math.abs(visitor.age - 32) == 1) {
+    if (Math.abs(visitor.age - 32) == 1) { // ONE YEAR DIFFERENCE
       greeting.innerHTML = `Witaj ${visitor.name}! Masz rok ${older} niż ja!`;
-    } else {
+    } else { // DIFFERENCE OTHER THAN ONE YEAR - ENDING
       function needEnd(ageDifference) {
         let lastDigit = ageDifference.toString(10).split("");
         console.log(lastDigit);
