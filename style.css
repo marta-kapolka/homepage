@@ -464,15 +464,18 @@ body {
   }
 
   .hamburger-button {
-    font-size: 2rem;
-    padding: 1rem;
+    background: none;
+    border: none;
+    color: #fefee7;
+    font-size: 5rem;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 1rem;
+    top: 1rem;
 
   }
 
   .main-header__navigation {
+
     height: 7rem;
     justify-content: flex-end;
     padding: 0;
@@ -481,9 +484,9 @@ body {
   .main-navigation {
     background-color: #0a0a15;
     display: none;
-    margin-top: 7rem;
+    margin: 7rem auto 0 auto;
     padding-bottom: 1.5rem;
-    width: 100%;
+    width: 90%;
   }
 
   .main-navigation__item {
@@ -530,6 +533,10 @@ body {
     width: 95vw;
   }
 
+  .main-header__text-container {
+    padding-top: 10rem;
+  }
+
   .main-header__text {
     font-size: 4.6rem;
   }
@@ -545,9 +552,17 @@ body {
     width: 100%;
   }
 
+  .week__title {
+    padding: 7rem 0 2rem 0;
+  }
+
   .week__title::before,
   .week__title::after {
     content: none;
+  }
+
+  .category__title {
+    padding: 7rem 0 2rem 0;
   }
 
   .category__title::before,

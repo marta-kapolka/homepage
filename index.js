@@ -86,3 +86,16 @@ hamburger.addEventListener("click", () => {
   const internalNav = document.querySelector(".internal-navigation--js");
   internalNav.classList.toggle("navigation--open");
 });
+
+function navigationHide() {
+  const mainNav = document.querySelector(".main-navigation--js");
+  mainNav.classList.remove("navigation--open");
+  const internalNav = document.querySelector(".internal-navigation--js");
+  internalNav.classList.remove("navigation--open");
+}
+
+document.querySelectorAll(".internal-navigation__item--js").forEach ( item => {
+  item.addEventListener('click', navigationHide);
+
+  });
+
