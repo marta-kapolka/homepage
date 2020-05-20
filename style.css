@@ -181,7 +181,8 @@ body {
   z-index: 100;
 }
 
-.up__arrow:hover {
+.up__arrow:hover,
+.up__arrow:focus {
   background-color: #ff901a;
   font-weight: 500;
 }
