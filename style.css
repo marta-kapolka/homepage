@@ -138,6 +138,10 @@ body {
   text-decoration: none;
 }
 
+.hamburger-button {
+  display: none;
+}
+
 /* BODY */
 
 .main-content {
@@ -166,24 +170,18 @@ body {
 }
 
 .up__arrow {
-  border: 3px dashed #ff901a;
-  bottom: 2rem;
-  color: #fefee7;
-  font-size: 4rem;
-  font-weight: 100;
-  height: 5rem;
-  padding: 0.4rem;
+  bottom: 0;
+  color: rgba(254, 254, 231, .3);
+  font-size: 7.5rem;
   position: fixed;
-  right: 2rem;
+  right: .5rem;
   text-decoration: none;
-  width: 5rem;
   z-index: 100;
 }
 
 .up__arrow:hover,
 .up__arrow:focus {
-  background-color: #ff901a;
-  font-weight: 500;
+  color: rgba(254, 254, 231, .6);
 }
 
 /* FOOTER */
@@ -467,6 +465,7 @@ body {
     background: none;
     border: none;
     color: #fefee7;
+    display: inline;
     font-size: 5rem;
     position: absolute;
     right: 1rem;
