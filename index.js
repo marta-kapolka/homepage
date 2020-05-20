@@ -1,12 +1,14 @@
 // INDEX - ADDING HTML CONTENT
-
+/*
 const troll = document.querySelector(".troll--js");
 
 troll.innerHTML =
   "&emsp;Jestem JSowym trollem i tak tu sobie dopisuję głupoty!";
 
-// INDEX - GREETING VISITOR
+  */
 
+// INDEX - GREETING VISITOR
+/*
 const greeting = document.querySelector(".about-me__text--js");
 
 let visitor = {};
@@ -72,5 +74,15 @@ if (visitor.name != "" && visitor.age != "" && visitor.age != null ) {
   greetVisitor(visitor);
 } else if (visitor.name != "") {
   greetVisitorName(visitor);
-}
+} */
 
+// HAMBURGER MENU
+
+const hamburger = document.querySelector(".hamburger-button--js");
+
+hamburger.addEventListener("click", () => {
+  const mainNav = document.querySelector(".main-navigation--js");
+  mainNav.classList.toggle("navigation--open");
+  const internalNav = document.querySelector(".internal-navigation--js");
+  internalNav.classList.toggle("navigation--open");
+});
