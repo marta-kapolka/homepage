@@ -39,7 +39,6 @@ body {
   color: #fefee7;
   font-size: 6rem;
   font-weight: 100;
-
 }
 
 .main-header__text--orange {
@@ -119,7 +118,7 @@ body {
   font-weight: 300;
   margin-bottom: 0.5rem;
   margin-right: 1.5rem;
-  padding: .3rem;
+  padding: 0.3rem;
   text-decoration: none;
 }
 
@@ -135,7 +134,7 @@ body {
   font-weight: 300;
   margin-bottom: 0.5rem;
   margin-right: 1.5rem;
-  padding: .3rem;
+  padding: 0.3rem;
   text-decoration: none;
 }
 
@@ -448,7 +447,7 @@ body {
 
 .link__button:active {
   box-shadow: none;
-  transform:translateY(5px);
+  transform: translateY(5px);
 }
 
 .link__button:visited {
@@ -476,3 +475,42 @@ body {
   font-weight: 100;
   text-decoration: none;
 } */
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 58%;
+  }
+
+  .internal-navigation {
+    justify-content: space-between;
+  }
+
+  .main-content {
+    width: 95vw;
+  }
+
+  .main-header__text {
+    font-size: 4.6rem;
+  }
+
+  .main-header__text--orange {
+    font-size: 5rem;
+  }
+
+  .about-me__photo {
+    border-radius: 20rem;
+    float: none;
+    margin: 0 0 4rem 0;
+    width: 100%;
+  }
+
+  .week__title::before,
+  .week__title::after {
+    content: none;
+  }
+
+  .category__title::before,
+  .category__title::after {
+    content: none;
+  }
+}

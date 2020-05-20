@@ -1,9 +1,11 @@
+// INDEX - ADDING HTML CONTENT
+
 const troll = document.querySelector(".troll--js");
 
 troll.innerHTML =
   "&emsp;Jestem JSowym trollem i tak tu sobie dopisuję głupoty!";
 
-// GREETING VISITOR
+// INDEX - GREETING VISITOR
 
 const greeting = document.querySelector(".about-me__text--js");
 
@@ -71,3 +73,4 @@ if (visitor.name != "" && visitor.age != "" && visitor.age != null ) {
 } else if (visitor.name != "") {
   greetVisitorName(visitor);
 }
+
