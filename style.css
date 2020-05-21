@@ -481,10 +481,10 @@ body {
   }
 
   .main-navigation {
-    background-color: #0a0a15;
+    background-color: hsl(240, 35%, 6%);
     display: none;
     margin: 7rem auto 0 auto;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     width: 90%;
   }
 
@@ -558,6 +558,18 @@ body {
   .week__title::before,
   .week__title::after {
     content: none;
+  }
+
+  .note {
+    /* background-color: #f0f2a6;
+    box-shadow: 0 10px 15px #000;
+    display: inline-block;
+    font-family: "Typewriter", "Times New Roman", serif;
+    font-size: 1.8rem;
+    margin: 1.5rem; */
+    min-height: 80vw;
+    padding: 2.5rem;
+    width: 80vw;
   }
 
   .category__title {
