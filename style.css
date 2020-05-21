@@ -66,11 +66,12 @@ body {
 
 .main-navigation__item {
   border: 3px dashed #ff901a;
+  border-radius: 5rem;
   color: #fefee7;
   display: inline-block;
   font-size: 1.7rem;
   font-weight: 300;
-  margin-right: 3rem;
+  margin-right: 2rem;
   padding: 1rem 2.5rem;
   text-align: center;
   text-decoration: none;
@@ -474,7 +475,6 @@ body {
   }
 
   .main-header__navigation {
-
     height: 7rem;
     justify-content: flex-end;
     padding: 0;
@@ -484,7 +484,7 @@ body {
     background-color: hsl(240, 35%, 6%);
     display: none;
     margin: 7rem auto 0 auto;
-    padding-bottom: 2rem;
+    padding-bottom: .5rem;
     width: 90%;
   }
 
