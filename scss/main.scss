@@ -1,0 +1,8 @@
+.test {
+    width: 200px;
+    &__title {
+        color: red;
+        font-size: large;
+        background-color: green;
+    }
+}

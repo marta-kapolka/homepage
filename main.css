@@ -1,0 +1,6 @@
+.test {
+  width: 200px; }
+  .test__title {
+    color: red;
+    font-size: large;
+    background-color: green; }
