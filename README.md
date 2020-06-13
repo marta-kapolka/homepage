@@ -16,7 +16,7 @@ Strona rozwijała się wraz z kolejnymi tygodniami szkolenia wprowadzającymi no
 
 ### Technologie wykorzystane w projekcie:
 
-- semantyczny html5 > nacisk na poprawne użycie znaczników
+- html5
 - css3 (scss)
 - js
 
