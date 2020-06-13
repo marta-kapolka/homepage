@@ -1,4 +1,6 @@
 $orange: #ff901a;
+$darkBlue: #0a0a15;
+$almostWhite: #fefee7;
 
 @font-face {
   font-family: "Typewriter";
@@ -19,7 +21,7 @@ html {
 }
 
 body {
-  background-color: #0a0a15;
+  background-color: $darkBlue;
   box-sizing: border-box;
   font-family: "Raleway", "Century Gothic", sans-serif;
 }
@@ -27,7 +29,7 @@ body {
 /* HEADER */
 
 .main-header {
-  background-color: #0a0a15;
+  background-color: $darkBlue;
   position: relative;
   top: 0;
   width: 100%;
@@ -37,7 +39,7 @@ body {
     text-align: center;
   }
   &__text {
-    color: #fefee7;
+    color: $almostWhite;
     font-size: 6rem;
     font-weight: 100;
     &--orange {
@@ -48,7 +50,7 @@ body {
     }
   }
   &__navigation {
-    background-color: #0a0a15;
+    background-color: $darkBlue;
     padding: 2rem 2rem 1rem 2rem;
     position: fixed;
     top: 0;
@@ -63,9 +65,9 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   &__item {
-    border: 3px dashed #ff901a;
+    border: 3px dashed $orange;
     border-radius: 5rem;
-    color: #fefee7;
+    color: $almostWhite;
     display: inline-block;
     font-size: 1.7rem;
     font-weight: 300;
@@ -77,19 +79,19 @@ body {
     width: 14rem;
     z-index: 70;
     &:hover {
-      background-color: #ff901a;
+      background-color: $orange;
       font-weight: 700;
     }
     &--current {
-      border: 3px solid #ff901a;
+      border: 3px solid $orange;
       font-weight: 700;
     }
   }
 }
 
 .main-navigation__item:visited {
-  border: 3px dashed #ff901a;
-  color: #fefee7;
+  border: 3px dashed $orange;
+  color: $almostWhite;
   display: inline-block;
   font-size: 1.7rem;
   font-weight: 300;
@@ -108,7 +110,7 @@ body {
   justify-content: flex-start;
   margin-top: 1.5rem;
   &__item {
-    color: #fefee7;
+    color: $almostWhite;
     display: inline-block;
     font-size: 1.6rem;
     font-weight: 300;
@@ -117,7 +119,7 @@ body {
     padding: 0.3rem;
     text-decoration: none;
     &:hover {
-      color: #ff901a;
+      color: $orange;
     }
     &--not-active {
       color: rgba(254, 254, 231, 0.5);
@@ -146,7 +148,7 @@ body {
   transform: translateX(-50%);
   width: 80vw;
   &__title {
-    color: #fefee7;
+    color: $almostWhite;
     font-size: 2.6rem;
     font-weight: 400;
     margin-top: 2rem;
@@ -179,7 +181,7 @@ body {
 /* FOOTER */
 
 .footer {
-  border-top: solid 1px #fefee7;
+  border-top: solid 1px $almostWhite;
   clear: both;
   margin: 12rem auto 0 auto;
   max-width: 109rem;
@@ -187,14 +189,14 @@ body {
   text-align: center;
   width: 80vw;
   &__text {
-    color: #fefee7;
+    color: $almostWhite;
     font-size: 1.6rem;
     font-weight: 100;
     &--link {
       font-weight: 300;
       text-decoration: none;
       &:hover {
-        color: #ff901a;
+        color: $orange;
       }
     }
   }
@@ -211,7 +213,7 @@ body {
 }
 
 .week__title {
-  color: #fefee7;
+  color: $almostWhite;
   font-size: 3rem;
   font-weight: 100;
   left: 50%;
@@ -223,7 +225,7 @@ body {
   width: 80vw;
   &::before,
   &::after {
-    border-top: 1px solid #fefee7;
+    border-top: 1px solid $almostWhite;
     content: "";
     display: inline-block;
     margin: 0 6rem;
@@ -264,21 +266,23 @@ body {
     &--tight {
       margin-top: 0;
     }
+    &--link {
+      text-decoration: underline;
+      &:hover {
+        font-weight: 700;
+      }
+
+      &visited {
+        color: #000;
+      }
+    }
   }
-}
-
-.note__item--link:hover {
-  font-weight: 700;
-}
-
-.note__item--link:visited {
-  color: #000;
 }
 
 /* INDEX PAGE */
 
 .about-me {
-  color: #fefee7;
+  color: $almostWhite;
   margin: 10rem auto;
   width: 80%;
   &__title {
@@ -292,13 +296,13 @@ body {
     font-weight: 100;
     text-align: justify;
     &--special {
-      color: #ff901a;
+      color: $orange;
       font-weight: 400;
       margin-bottom: 8rem;
     }
   }
   &__photo {
-    border: 4px solid #ff901a;
+    border: 4px solid $orange;
     border-radius: 10rem;
     float: right;
     margin: 0 0 4rem 6rem;
@@ -307,7 +311,7 @@ body {
 }
 
 .skills {
-  color: #fefee7;
+  color: $almostWhite;
   margin: 10rem auto;
   width: 80%;
   &__title {
@@ -336,7 +340,7 @@ body {
     cursor: pointer;
     font-weight: 300;
     &:hover {
-      color: #ff901a;
+      color: $orange;
     }
   }
 }
@@ -352,7 +356,7 @@ body {
 }
 
 .category__title {
-  color: #fefee7;
+  color: $almostWhite;
   font-size: 3rem;
   font-weight: 100;
   left: 50%;
@@ -364,7 +368,7 @@ body {
   width: 90%;
   &::before,
   &::after {
-    border-top: 1px solid #fefee7;
+    border-top: 1px solid $almostWhite;
     content: "";
     display: inline-block;
     margin: 0 6rem;
@@ -374,7 +378,7 @@ body {
 }
 
 .link {
-  background-color: #fefee7;
+  background-color: $almostWhite;
   flex-grow: 1;
   margin: 2rem;
   padding: 2rem;
@@ -395,7 +399,7 @@ body {
     background-color: hsl(240, 35%, 20%);
     bottom: 2rem;
     box-shadow: 0 5px 10px #777;
-    color: #fefee7;
+    color: $almostWhite;
     display: block;
     font-size: 2rem;
     font-weight: 900;
@@ -407,14 +411,14 @@ body {
     text-transform: uppercase;
     width: calc(100% - 4rem);
     &:hover {
-      background-color: #ff901a;
+      background-color: $orange;
     }
     &:active {
       box-shadow: none;
       transform: translateY(5px);
     }
     &:visited {
-      color: #fefee7;
+      color: $almostWhite;
     }
   }
 }
@@ -430,7 +434,7 @@ body {
   .hamburger-button {
     background: none;
     border: none;
-    color: #fefee7;
+    color: $almostWhite;
     display: inline;
     font-size: 5rem;
     position: absolute;
@@ -467,7 +471,7 @@ body {
   }
 
   .internal-navigation {
-    background-color: #0a0a15;
+    background-color: $darkBlue;
     display: none;
     margin-top: 0;
     padding-bottom: 1.5rem;

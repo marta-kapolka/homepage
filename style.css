@@ -218,12 +218,12 @@ body {
     margin-top: 1rem; }
     .note__item--tight {
       margin-top: 0; }
-
-.note__item--link:hover {
-  font-weight: 700; }
-
-.note__item--link:visited {
-  color: #000; }
+    .note__item--link {
+      text-decoration: underline; }
+      .note__item--link:hover {
+        font-weight: 700; }
+      .note__item--linkvisited {
+        color: #000; }
 
 /* INDEX PAGE */
 .about-me {
