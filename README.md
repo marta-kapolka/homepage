@@ -1,18 +1,18 @@
-# homepage
+# &#9733; homepage &#9733;
 
-## co to?
+## &#10068; co to?
 
 Strona domowa - poligon doświadczalny do nauki podstaw frontendu
 
 ![podgląd homepage](gh/homepage.jpg)
 
-## po co i dlaczego?
+## &#10068; po co i dlaczego?
 
 Projekt powstał w ramach szkolenia [WTF - co ten frontend](https://cotenfrontend.pl).
 
 Strona rozwijała się wraz z kolejnymi tygodniami szkolenia wprowadzającymi nowe wiadomości, technologie i narzędzia.
 
-## jak zostało zrobione?
+## &#10068; jak zostało zrobione?
 
 ### Technologie wykorzystane w projekcie:
 
@@ -20,6 +20,6 @@ Strona rozwijała się wraz z kolejnymi tygodniami szkolenia wprowadzającymi no
 - css3 (scss)
 - js
 
-## wypróbuj!
+## &#10069; wypróbuj!
 
 > https://marta-kapolka.github.io/homepage/
